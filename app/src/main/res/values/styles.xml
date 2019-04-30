@@ -6,6 +6,21 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FunctionalButtons">
+
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">70sp</item>
+        <item name="android:maxHeight">80sp</item>
+        <item name="android:minWidth">70sp</item>
+        <item name="android:maxWidth">90sp</item>
+        <item name="android:textColor">@color/colorFuncButtonTxt</item>
+        <item name="android:background">@drawable/func_round_rect_btn</item>
+
     </style>
 
 </resources>
